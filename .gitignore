@@ -1,0 +1,19 @@
+# Python Ortamı ve Cache
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# GB'lık Boyut Aşımı Yapan Devasa Kaggle Veri Setleri
+DATASET.csv
+archive/
+*.zip
+
+# Yapay Zeka Model Çıktı Logları (Arayüzde Görünmeyenler)
+ai_output.txt
+ai_kaggle_output.txt
+
+# Çalıştıkça Sürekli Değişen Anlık Sistem Hafızası
+target_location.json
+latest_status.json
